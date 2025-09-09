@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Keep only these dirs and their contents
+!/plugins/
+!/plugins/**
+!/themes/
+!/themes/**
+
+# Always keep README and the ignore file
+!*.md
+!.gitignore
+
+# Junk to ignore anywhere
+.DS_Store
+*.log
+*.sql
+*.zip
+*.tar.gz
+node_modules/
+vendor/
